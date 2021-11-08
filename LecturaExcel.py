@@ -6,3 +6,5 @@ df=pd.read_excel()
 #columna email duplicado
 df=df.drop_duplicates(columna="email")
 #Imprimimos la columna email
+for i in df.index:
+  print(df["Email][i])
